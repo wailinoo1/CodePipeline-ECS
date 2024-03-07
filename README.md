@@ -3,7 +3,7 @@
 <h2>Project Overview</h2>
 <p>In this project, we orchestrated the deployment of a robust cloud infrastructure on AWS using Terraform, focusing on VPC, subnetting, and ECS services. By breaking down our architecture into VPCs and subnets, we achieved network isolation and optimized resource allocation. Additionally, deploying containerized applications with ECS streamlined our operational processes, allowing for efficient scaling and management of Docker containers. Integrating AWS CodePipeline into our workflow automated the CI/CD pipeline, enabling seamless code deployments and ensuring rapid iteration cycles.</p>
 
-![CHEESE](images/codepipelinecs.jpg | width =100)
+![CHEESE](images/codepipelinecs.jpg)
 
 <h2>Pre-requisites</h2>
 <p><b>CodeCommit :</b> You need to create a repository in CodeCommit and Upload all files to repo.
