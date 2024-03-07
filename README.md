@@ -5,6 +5,11 @@
 
 ![CHEESE](images/codepipelinecs.jpg)
 
+<h2>Pre-requisites</h2>
+<p><b>CodeCommit :</b> You need to create a repository in CodeCommit and Upload all files to repo.
+<p><b>SSM Parameters Store :</b> You need to create two parameters in AWS System Manager Parameter Store to keep AWS account ID and Region Values.</p>
+<p><b>Image:</b> You need to upload a first image with tag to AWS ECR</p>
+
 <h2>Code Build</h2>
 
 <p><br><b>Creating New Code Build Project</b></br>
