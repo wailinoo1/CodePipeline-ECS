@@ -7,9 +7,9 @@
 
 <h2>Code Build</h2>
 
-<p><br><b>Created New Code Build Project</b></br>
-   <b>Project Name</b> : node-build
-   <b>Source</b> : Code Commit
+<p><br><b>Creating New Code Build Project</b></br>
+   <br><b>Project Name</b> : node-build </br>
+   <br><b>Source</b> : Code Commit </br>
    <b>Repository</b> : Your Repo Name
 </p>
 
