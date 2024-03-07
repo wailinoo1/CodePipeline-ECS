@@ -15,7 +15,13 @@
 
 ![CHEESE](images/bp1.jpg)
 
+<p>
+   <br><b>Environment :</b> default </br>
+   <br><b>Service Role :</b> Your Existing Service Role or Create one </br>
+</p>
+
 ![CHEESE](images/bp2.jpg)
+
 ![CHEESE](images/bp3.jpg)
 ![CHEESE](images/bp4.jpg)
 ![CHEESE](images/bp5.jpg)
