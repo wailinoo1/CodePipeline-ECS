@@ -50,3 +50,52 @@
 
 ![CHEESE](images/bp6.jpg)
 
+<h2>CodePipeline</h2>
+
+<p>
+   <br><b>Creating CodePipeline :</b> S3 </br>
+   <br><b>Pipeline Name :</b> nodeapp-ecs </br>
+   <br><b>Service Role :</b> Your Existing Service Role or new one </br>
+   <b>And then , Next</b>
+</p>
+
+![CHEESE](images/cp1.jpg)
+
+<p>
+   <br><b>Source :</b> S3 </br>
+   <br><b>Source Provider :</b> CodeCommit </br>
+   <br><b>Repository Name :</b> Your Existing Repo Name </br>
+   <br><b>Branch Name :</b> master  </br>
+   <b>And then , Next</b>
+</p>
+
+![CHEESE](images/cp2.jpg)
+
+<p>
+   <br><b>Build :</b> S3 </br>
+   <br><b>Build Provider :</b> AWS CodeBuild </br>
+   <br><b>Region :</b> AWS Region </br>
+   <br><b>Project Name :</b> Build Project Name that we created previous step  </br>
+   <b>And then , Next</b>
+</p>
+
+![CHEESE](images/cp3.jpg)
+
+<p>
+   <br>In Deploy Option , we will choose ECS as a deploy provider cause we want to deploy our build image to AWS ECS</br>
+   <br><b>Deploy Provier :</b> ECS </br>
+   <br><b>Region :</b> AWS Region </br>
+   <br><b>Cluster Name :</b> Your ECS Cluser Name </br>
+   <br><b>Service Name :</b> Your ECS Service Name  </br>
+   <br><b>Image Definitions File :</b> imagedefinition.json  </br>
+   <br><b>If you are deploying container-based applications, you must generate an image definitions file to provide the CodePipeline job worker with the Amazon ECS container and image identification to retrieve from the image repository, such as Amazon ECR.</b></br>
+   <b>And then , Next</b>
+</p>
+
+![CHEESE](images/cp4.jpg)
+
+<p>
+   <br><b>Now , you can see CodePipeline and it will start deploying to ECS when every commit changes happen in CodeCommit Repository</b></br>
+</p>
+
+![CHEESE](images/cp5.jpg)
