@@ -17,13 +17,31 @@
 
 <p>
    <br><b>Environment :</b> default </br>
-   <br><b>Service Role :</b> Your Existing Service Role or Create one </br>
 </p>
 
 ![CHEESE](images/bp2.jpg)
 
+<p>
+   <br><b>Service Role :</b> Your Existing Service Role or Create one </br>
+   <br><b>BuildSpec :</b> Use a buildspec file 
+</p>
+
 ![CHEESE](images/bp3.jpg)
+
+<p>
+   <br><b>Artifacts :</b> S3 </br>
+   <br><b>Bucket Name :</b> Your S3 Bucket Name </br>
+   <br><b>Service Role :</b> Bucket Directory 
+</p>
+
 ![CHEESE](images/bp4.jpg)
+
+<p>
+   <br><b>Cloud Watch Logs : </b> 
+   <br><b>Group Name</b> /aws/codebuild/node-build </br>
+</p>
+<p>And then , Create build project</p>
+
 ![CHEESE](images/bp5.jpg)
 
 
