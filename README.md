@@ -53,7 +53,7 @@
 <h2>CodePipeline</h2>
 
 <p>
-   <br><b>Creating CodePipeline :</b> S3 </br>
+   <br><b>Creating CodePipeline :</b></br>
    <br><b>Pipeline Name :</b> nodeapp-ecs </br>
    <br><b>Service Role :</b> Your Existing Service Role or new one </br>
    <b>And then , Next</b>
@@ -62,7 +62,7 @@
 ![CHEESE](images/cp1.jpg)
 
 <p>
-   <br><b>Source :</b> S3 </br>
+   <br><b>Source :</b></br>
    <br><b>Source Provider :</b> CodeCommit </br>
    <br><b>Repository Name :</b> Your Existing Repo Name </br>
    <br><b>Branch Name :</b> master  </br>
@@ -72,7 +72,7 @@
 ![CHEESE](images/cp2.jpg)
 
 <p>
-   <br><b>Build :</b> S3 </br>
+   <br><b>Build :</b></br>
    <br><b>Build Provider :</b> AWS CodeBuild </br>
    <br><b>Region :</b> AWS Region </br>
    <br><b>Project Name :</b> Build Project Name that we created previous step  </br>
@@ -99,3 +99,6 @@
 </p>
 
 ![CHEESE](images/cp5.jpg)
+
+<h2>Conclusion</h2>
+<p>In conclusion, our project successfully implemented a robust cloud infrastructure on AWS using Terraform, focusing on VPC, subnetting, and ECS services. By leveraging infrastructure as code principles, we achieved consistency, repeatability, and scalability across environments. The integration of AWS CodePipeline automated our CI/CD pipeline, facilitating rapid and reliable application deployments. Overall, our approach ensures efficient resource utilization, streamlined operational processes, and sets the stage for future growth and innovation in cloud-native development.</p>
