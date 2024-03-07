@@ -9,6 +9,7 @@
 <p><b>CodeCommit :</b> You need to create a repository in CodeCommit and Upload all files to repo.
 <p><b>SSM Parameters Store :</b> You need to create two parameters in AWS System Manager Parameter Store to keep AWS account ID and Region Values.</p>
 <p><b>Image:</b> You need to upload a first image with tag to AWS ECR</p>
+<p><b>ECS:</b> You can check this github https://github.com/wailinoo1/Terraform-ECS-GitHubAction.git to build ECS Infrastructure with terraform as a refrence.</p>
 
 <h2>Code Build</h2>
 
