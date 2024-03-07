@@ -8,9 +8,9 @@
 <h2>Code Build</h2>
 
 <p><br><b>Creating New Code Build Project</b></br>
-   <br><b>Project Name</b> : node-build </br>
-   <br><b>Source</b> : Code Commit </br>
-   <b>Repository</b> : Your Repo Name
+   <br><b>Project Name :</b> node-build </br>
+   <br><b>Source :</b> Code Commit </br>
+   <b>Repository :</b> Your Repo Name
 </p>
 
 ![CHEESE](images/bp1.jpg)
