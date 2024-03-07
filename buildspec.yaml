@@ -6,7 +6,7 @@ phases:
       - export REGION=$(aws ssm get-parameter --with-decryption --name /codebuild/region --query Parameter.Value --output text)
       - export ACCOUNT=$(aws ssm get-parameter --with-decryption --name /codebuild/accountId --query Parameter.Value --output text)
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $ACCOUNT.dkr.ecr.ap-southeast-1.amazonaws.com
+      - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $ACCOUNT.dkr.ecr.$REGION.amazonaws.com
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
 
@@ -16,7 +16,7 @@ phases:
       - sudo docker build -t nodejs:latest .
       - echo Tagging Docker image...
       - sudo docker tag nodejs:latest $ACCOUNT.dkr.ecr.$REGION.amazonaws.com/wlo-node:$IMAGE_TAG
-      - printf '[{"name":"node","imageUri":"%s"}]' $ACCOUNT.dkr.ecr.ap-southeast-1.amazonaws.com/wlo-node:$IMAGE_TAG > imagedefinitions.json
+      - printf '[{"name":"node","imageUri":"%s"}]' $ACCOUNT.dkr.ecr.$REGION.amazonaws.com/wlo-node:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json
 
   post_build:
