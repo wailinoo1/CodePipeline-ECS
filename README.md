@@ -44,4 +44,9 @@
 
 ![CHEESE](images/bp5.jpg)
 
+<p>
+   <b>Now, you can see your build project and start build</b> 
+</p>
+
+![CHEESE](images/bp6.jpg)
 
