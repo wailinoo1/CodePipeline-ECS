@@ -7,12 +7,14 @@
 
 <h2>Code Build</h2>
 
-<p>Created New Code Build Project
-   Project Name : node-build
-   Source : Code Commit
+<p>Created New Code Build Project \n
+   Project Name : node-build \n
+   Source : Code Commit \n
    Repository : Your Repo Name
 </p>
+
 ![CHEESE](images/bp1.jpg)
+
 ![CHEESE](images/bp2.jpg)
 ![CHEESE](images/bp3.jpg)
 ![CHEESE](images/bp4.jpg)
